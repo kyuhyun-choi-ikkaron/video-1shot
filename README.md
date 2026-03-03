@@ -14,6 +14,7 @@ git clone https://huggingface.co/datasets/KyuHyunChoi/ikkaron-jeonju-1shot
 
 ## Run
 ```
+git clone https://huggingface.co/datasets/KyuHyunChoi/ikkaron-jeonju-1shot
 git clone https://github.com/kyuhyun-choi-ikkaron/video-1shot
 cd video-1shot
 python prepare_dataset.py
