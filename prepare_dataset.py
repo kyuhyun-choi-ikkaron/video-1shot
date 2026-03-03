@@ -54,9 +54,10 @@ def save_pre_sampled_dataset(src_root, dest_root, split_type="train", samples_pe
 # Run
 # Clone dataset first:
 #   git clone https://huggingface.co/datasets/KyuHyunChoi/ikkaron-jeonju-1shot
-#   cd ikkaron-jeonju-1shot
+#   git clone https://github.com/kyuhyun-choi-ikkaron/video-1shot
+#   cd video-1shot
 #   python prepare_dataset.py
-ORIGIN_PATH  = "."                     # mp4 videos are in the cloned repo root
+ORIGIN_PATH  = "ikkaron-jeonju-1shot"  # HuggingFace cloned dataset
 DATASET_PATH = "video_dataset_frames"  # Output path for extracted frames
 
 save_pre_sampled_dataset(ORIGIN_PATH, DATASET_PATH, "train", 1, 0)
