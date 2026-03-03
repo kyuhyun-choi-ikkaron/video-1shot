@@ -1,6 +1,6 @@
 # Video 1-Shot Grounding
 
-340M params. 1-Shot. 100% accuracy. 3 minutes. No LLM.
+310M total params. **6.8M trainable**. 1-Shot. 100% accuracy. 3 minutes. No LLM.
 
 ## Requirements
 ```
