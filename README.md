@@ -3,10 +3,14 @@
 340M params. 1-Shot. 100% accuracy. 3 minutes. No LLM.
 
 ## Requirements
+```
 pip install torch transformers opencv-python tqdm matplotlib
+```
 
 ## Dataset
+```
 git clone https://huggingface.co/datasets/KyuHyunChoi/ikkaron-jeonju-1shot
+```
 
 ## Run
 ```
