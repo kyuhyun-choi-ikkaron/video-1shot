@@ -9,10 +9,12 @@ pip install torch transformers opencv-python tqdm matplotlib
 git clone https://huggingface.co/datasets/KyuHyunChoi/ikkaron-jeonju-1shot
 
 ## Run
+'''
 git clone https://github.com/kyuhyun-choi-ikkaron/video-1shot
 cd video-1shot
 python prepare_dataset.py
 python run.py
+'''
 
 ## Citation
 DINOv3: https://arxiv.org/abs/2508.10104
